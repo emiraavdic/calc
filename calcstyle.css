@@ -1,0 +1,74 @@
+.calc {
+    background-color: rgb(20,20,20);
+    width: 300px;
+    padding: 5px;
+    border-radius:5px;
+}
+.button {
+    background-color: rgb(70,70,70);
+    border: none;
+    color: ghostwhite;
+    font-size: 18px;
+    width: 72px;
+    height: 50px;
+    margin: 2px 0px;
+    border-radius: 1.5px;
+}
+
+.buttonop {
+    background-color: rgb(44, 44, 44);
+    border: none;
+    color: ghostwhite;
+    font-size: 18px;
+    width: 72px;
+    height: 50px;
+    margin: 2px 0px;
+    border-radius: 1.5px;
+}
+
+.buttonop:hover, .button:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+.button2 {
+    float: right;
+    height: 67px;
+}
+
+.button:active, .buttonop:active {
+    background-color: rgb(150, 150, 150);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+#equal {
+    background-color: rgb(255, 123, 0);
+    border: none;
+    color: black;
+    font-size: 18px;
+    width: 72px;
+    height: 50px;
+    margin: 2px 0px;
+    border-radius: 1.5px;
+}
+
+#equal:hover {
+    background-color: rgb(255, 136, 25);
+}
+
+#equal:active {
+    background-color: rgb(255, 146, 44);
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+}
+
+#disp {
+    color: ghostwhite;
+    float: left;
+    font-size: 22px;
+    padding: 0 10px;
+}
